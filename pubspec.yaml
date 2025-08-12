@@ -1,0 +1,26 @@
+name: fitflow_pro
+description: AI-Powered Fitness App - Built with DreamBuild
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  http: ^0.13.0
+  shared_preferences: ^2.0.0
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0
+  path: ^1.8.0
+  fl_chart: ^0.55.0
+  image_picker: ^0.8.0
+  permission_handler: ^8.3.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

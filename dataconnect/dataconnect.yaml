@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "fitflow-pro-standalone"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "fitflow-pro-standalone-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
